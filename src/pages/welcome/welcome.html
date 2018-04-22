@@ -1,0 +1,45 @@
+<!--
+  Generated template for the WelcomePage page.
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<!--<ion-header>
+  <ion-navbar>
+    <ion-title>welcome</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+</ion-content>
+-->
+<ion-slides pager>
+  <!-- This is first slider -->
+   <ion-slide style="background-color: #e76c32">
+   <ion-icon ios="logo-usd" md="logo-usd" style="zoom:5.0;"></ion-icon>
+   <h1 style="color: #ebebeb">Welcome to Daily Spin</h1>
+   <p style="font-family:open-sans; font-size:14px; color:#ebebeb">The daily lucky wheel is waiting for you! 
+  </p>
+   </ion-slide>
+<!-- This is 2nd slider -->
+   <ion-slide style="background-color: #d86ba1">
+    <ion-icon ios="ios-heart" md="md-heart" style="zoom:5.0;"></ion-icon>
+    <h1 style="color: #ebebeb">Daily Suprise Gifts</h1>
+    <p style="font-family:open-sans; font-size:14px; color:#ebebeb">  Daily Spin can give you a chance to get a big prize everyday
+   </p>
+    </ion-slide>
+<!-- This is 3rd slider -->
+    <ion-slide style="background-color: #41c6f1">
+      <ion-icon ios="logo-freebsd-devil" md="logo-freebsd-devil" style="zoom:5.0;"></ion-icon>
+      <h1 style="color: #ebebeb">Sharing Your Lucky</h1>
+      <p style="font-family:open-sans; font-size:14px; color:#ebebeb">You can share your prize to the one you love by sending it through the friends list 
+     </p>
+     </ion-slide>
+<!-- This is last slider -->
+     <ion-slide class="bg-image">
+       <h1 style="color:#ebebeb">Let Spin The Wheel!</h1>
+       <h2 class="padding" style="font-family: opensans; font-size: 14px; color:#ebebeb"> The lucks will be with you every!</h2>
+     <div style="position: absolute; bottom: 120px; text-align: center; z-index: 1000; width: 100%">
+      <button id="welcomebtn" ion-button round outline [navPush]="nextPage">Let's go!</button>
+    </div>
+    </ion-slide>
+  </ion-slides>
+   
